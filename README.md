@@ -22,5 +22,8 @@ This repository contains:
 
 ## code image
 <img width="2879" height="1668" alt="Screenshot 2025-11-29 110650" src="https://github.com/user-attachments/assets/85556401-0d7a-4243-96f1-8cd676b5eff3" />
+## project output screen
+<img width="2861" height="1494" alt="Screenshot 2025-11-29 113310" src="https://github.com/user-attachments/assets/17cd3b1e-e83c-45a3-a662-8f5f0a2e1d30" />
+
 
 
