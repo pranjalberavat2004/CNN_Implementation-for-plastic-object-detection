@@ -1,0 +1,30 @@
+# Python Git Ignore 
+# Python virtual environment
+venv/
+
+# Model and weight files
+*.h5
+*.pt
+*.pkl
+*.json
+
+# Dataset folders
+plastic_images/
+yolo_dataset/
+
+# Results folder
+saved_results/
+
+# Cache + temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.problematic_files.txt
+
+# Windows system files
+Thumbs.db
+.DS_Store
+
+# Text files
+*.txt
+

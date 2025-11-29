@@ -1,0 +1,34 @@
+# --- Core ML + Object Detection ---
+ultralytics==8.3.26          # YOLOv8 framework
+torch==2.3.1                 # PyTorch backend (used by YOLOv8)
+torchvision==0.18.1          # Vision utilities for PyTorch
+
+# --- TensorFlow + Keras (for CNN) ---
+tensorflow==2.15.0            # Stable for Python 3.10 & NumPy 1.26
+keras==2.15.0                 # Bundled with TensorFlow, kept for clarity
+
+# --- Data and Image Handling ---
+opencv-python==4.10.0.84      # For reading and processing images
+numpy==1.26.4                 # Compatible with TensorFlow and PyTorch
+scikit-learn==1.3.2           # For preprocessing, train/test split, LabelEncoder
+pandas==2.2.3                 # For handling CSVs and image metadata
+Pillow==10.4.0                # For image reading (used internally by Keras)
+tqdm==4.66.5                  # For progress bars during data loading
+imageio==2.36.0               # For advanced image I/O (optional)
+h5py==3.11.0                  # For saving and loading Keras models
+
+# --- Visualization ---
+matplotlib==3.9.2             # Plotting training metrics
+seaborn==0.13.2               # Optional, for advanced plots
+
+# --- Utility / Debugging ---
+warnings                      # Built-in, no pip install needed (kept for clarity)
+psutil==6.0.0                 # To monitor system resource usage (optional)
+
+# --- Optional (Development / Notebook) ---
+jupyter==1.1.1                # Jupyter Notebook environment
+ipython==8.27.0               # Enhanced interactive shell
+notebook==7.2.2               # Jupyter notebook server
+
+# --- Optional (Web Interface / Streamlit app) ---
+streamlit==1.39.0             # For building a test dashboard with webcam
